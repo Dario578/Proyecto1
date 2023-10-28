@@ -1,5 +1,27 @@
 @startuml
+class Xwing
+class Alien 
+class Proyectil
+class Jugador
+class Calamar
+class Cangrejo
+class Pulpo
+class Platillo_volador
+class Puntero 
+class Vida
+class Punto
+class Muro
 
-class Mascota 
+Jugador--|> Xwing
+Xwing o-- Proyectil
+Cangrejo--|>Alien
+Pulpo--|>Alien
+Calamar--|>Alien
+Jugador--*Puntero
+Alien o-- Proyectil
+Puntero o-- Punto
+Platillo_volador o--|> Punto
+Alien--|>Punto
+Xwing *--Vida
 
 @enduml
