@@ -1,5 +1,5 @@
-#include <Ventana.hpp>
-#include <Dibujo.hpp>
+#include<Ventana.hpp>
+#include<Dibujo.hpp>
 #include <curses.h>
 #include <unistd.h>
 
